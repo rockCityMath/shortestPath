@@ -23,11 +23,8 @@ int main() {
     std::cout << "End node: ";
     std::cin >> end;
 
-    std::cout << "Shortest distance between " << start << " and " << end << " ";
+    std::cout << "Shortest distance between " << start << " and " << end << ": ";
     std::cout << shortestPath(edges, start, end, 9) << std::endl;
-
-    std::cout << "Done?" << std::endl;
-    std::cin >> start;
 
     return 0;
 
