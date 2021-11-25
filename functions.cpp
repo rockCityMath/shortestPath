@@ -41,7 +41,6 @@ int shortestPath(std::vector<int> edges[], int start, int end, int numEdges){
 
     }
 
-    //How does it know when to stop looping and return
     return distance[end];
 
 }
